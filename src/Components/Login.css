@@ -1,0 +1,78 @@
+.container{
+  background-color: white;
+  color: black;
+ min-height: 200px ;
+  width: 600px;
+  margin: 50px auto;
+  padding: 30px 40px ;
+  box-shadow: 0 0 4px 0 black;
+  text-align: center;
+  align-items: center;
+}
+.Login-form-div{
+  min-height: 200px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  border: none;
+  margin: 0 auto;
+  align-items: center;
+  /* border: 1px solid black; */
+  background-color: #fff;
+  color: black;
+  input{
+    padding: 10px 20px;
+    margin: 8px auto;
+    background-color: #EBEFEF;
+    border: none;  
+    outline: none;
+  }
+  a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+  }
+  .Login-btn{
+    padding: 10px 20px;
+    margin: 8px auto;
+    background-color: rgb(53, 53, 134);
+    border: none;
+    border-radius: 10px;
+    width: 350px;
+    color: white;
+    cursor: pointer;
+  }
+  #Google{
+    background-color: darkslategray;
+  }
+
+}
+.icons{
+  display: flex;
+  gap:18px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.icon{
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 4px 0 gray;
+  padding: 4px;
+  cursor: pointer;
+}
+a{
+  cursor: pointer;
+}
+.Login-para{
+  display: flex;
+}
+.Login-para-register{
+  justify-content:start;
+}

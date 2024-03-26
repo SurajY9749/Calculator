@@ -1,0 +1,39 @@
+.L-btn{
+  color: black;
+  border: none;
+  padding: 10px 25px;
+  background-color: #24A0ED;
+  border-radius: 5px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 4px 0px black;
+}
+.Container{
+  display: flex;
+  justify-content: space-between;
+}
+.content-container{
+  min-height: 300px;
+  width: 680px;
+  /* box-shadow: 0 0 4px 0 black; */
+  padding: 30px 40px;
+  margin-left:5px;
+  border: none;
+}
+.para{
+  line-height: 50px;
+  font-size: 30px;
+  gap: 10px;
+}
+
+.img{
+  padding: 20px 30px;
+  min-height: 300px;
+  width: 400px;
+  /* box-shadow: 0 0 4px 0 black; */
+}
+
+img{
+  height: 400px;
+  width: 400px;
+  border: none;
+}
