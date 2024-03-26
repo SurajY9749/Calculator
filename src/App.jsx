@@ -4,7 +4,7 @@ import LoginPage from "./Components/LoginPage";
 import { Routes, Route } from "react-router-dom";
 import NavBar from "./Components/NavBar";
 import SignupPage from "./Components/SignupPage";
-// he
+
 const App = () => {
   return (
     <div>
